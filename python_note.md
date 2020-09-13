@@ -80,3 +80,122 @@ c
 d
 ''')
 ```
+
+#### 四，条件分支,循环
+1. 条件分支
+比较操作符：!=, ==
+输出是真假值，布尔值，0，1
+用空格让程序美观易读
+if 条件：
+    条件为真(true)时执行的操作
+else：
+    条件为假(false)时执行的操作
+
+```
+print("--------------------")
+temp = input("your answer")
+guess = int(temp)
+if guess == 8:
+    print("right")
+else:
+    if guess >8:
+        print("big")
+    else:
+        print('small')
+print("game over")
+```
+2. while 循环
+while 条件：
+    条件为真(true)执行的操作
+
+
+```
+print("--------------------")
+guess = 0
+while guess != 8:
+    temp = input("your answer")
+    guess = int(temp)
+    if guess == 8:
+        print("right")
+    else:
+        if guess >8:
+            print("big")
+        else:
+            print('small')
+print("game over")
+```
+
+3. 逻辑操作符
+and ,or .
+？
+比较操作符（大于小于）优先值高于逻辑操作符。
+可以用括号标明优先操作顺序。
+
+4. random模块
+randint()
+
+```
+import random
+secret = random.randint(1,10)
+print("--------------------")
+guess = 0
+while guess != secret:
+    temp = input("your answer")
+    guess = int(temp)
+    if guess == secret:
+        print("right")
+    else:
+        if guess >secret:
+            print("big")
+        else:
+            print('small')
+print("game over")
+```
+
+习题部分
+
+可用反斜杠或者括号把一行语句分解成多行
+``` 
+3 > 4 and \
+1 < 2
+
+(3 > 4 and 
+1 < 2)
+```
+
+```
+import random
+secret = random.randint(1,10)
+print("--------------------")
+guess = 0
+i = 0
+while (guess != secret) and (i < 3):
+    temp = input("your answer")
+    guess = int(temp)
+    if guess == secret:
+        print("right")
+    else:
+        if guess >secret:
+            print("big")
+        else:
+            print('small')
+    i = i + 1
+print("game over")
+```
+```
+temp = input('请输入一个整数')
+number = int(temp)
+i = 0
+while i < number:
+    print(i+1)
+    i = i + 1
+```
+```
+temp = input('请输入一个整数')
+number = int(temp)
+while number >0:
+    print(' '*(number-1)+'*'*number)
+    number = number - 1
+```
+
+### 五，
