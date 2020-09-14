@@ -240,5 +240,46 @@ and ,or , not
 5. 逻辑操作符  not  > and  >or
    3 and 4 == 4 , 3 or 4 == 3
 
+### 七，分支与循环
+缩进
+三元操作符
+x if x < y else y
+断言： assert  判断
+如果判断为假，则自爆报错AssertionError
+成员资格运算符，in
+
+while 条件：
+    循环体
+    
+ for循环
+ for 目标 in  表达式：
+    循环体
+    
+ range([start,] stop[, step=1])
+ 第三个参数默认值是1
+ 生成一个列表
 
 
+中断，break，终止循环，跳出循环体
+continue，终止本轮循环，开始下一轮循环
+
+### 八，列表，一个打了激素的数组
+#### 1.创建列表
+1. 创建普通列表  member = ['A', 'B']
+2. 创建混合列表  
+3. 创建一个空列表  empty = []
+
+#### 2. 向列表添加元素
+1. append         member.append(一个元素)
+2. extend         member.extend(待添加列表)
+3. insert()       member.insert(位置，待添加元素)
+
+#### 3.从列表中获取元素
+1. 从列表中获取元素，member[索引值]
+2. 从列表删除元素， remove()    member.remove(要删除的元素)
+del     del member[待删除元素下标]
+pop()    member.pop(下标)     弹出并返回一个值，若无下标默认最后一个
+3. 列表分片(slice)
+member[1:3：1]开始位置，结束位置，步长，包左不包右。
+前后值都可以去。
+member[:]拷贝一个列表
