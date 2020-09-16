@@ -409,11 +409,35 @@ def MyFirstFunction():
 调用函数
 
 2.函数参数
-def MySecondFunction(name):
+def MySecondFunction(name):# 这里的name是形参
     print(name + 'love')
-MySecondFunction('s ')
+MySecondFunction('s ')#这里的's'是实参
 
 3,函数的返回值
 def add(a,b):
     return (a + b)
 print(add(10,15))
+
+4. 函数文档
+def add(a,b):
+    '这里是函数文档'
+    return (a + b)
+print(add.__doc__)
+
+5. 关键字参数
+def add(a,b):
+    return (a + b)
+print(add(a=10,b=15))#这里的a,b都是关键字参数
+
+6，默认参数
+def add(a=10,b=15):#这里的10，15是默认参数
+    return (a + b)
+print(add())#这里没参数就输出默认参数，有参数就用这个参数
+
+7. 收集参数
+def test(*params):
+    print('c参数的长度是：',len(params))
+    print('第二个参数是',params[1])
+print(test(1,2,5,8,9,3.2,25,10))
+
+return,函数结束行
