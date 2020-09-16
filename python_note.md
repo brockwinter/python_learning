@@ -381,3 +381,23 @@ print('%#x' % 15)
 11. \0 表示一个空字符
 12. \\ 反斜杠
 
+### 十二，序列
+列表，元组和字符串的共同点：
+1. 通过索引得到元素
+2. 索引值从0开始
+3.分片
+4.共同操作符：重复，拼接，成员关系
+
+list()   列表化
+tuple()  元组化
+str()    字符串化
+len()    返回参数中元素个数
+max()    返回序列中的最大值，字母返回ASCII码值
+min()     返回序列中的最小值，字母返回ASCII码值，要保证数据类型一致
+sum(interable[,start=0])     返回序列的总和,再加上start
+sorted()     排序，默认从小到大
+reversed()   返回一个迭代器
+      d = list(reversed(c))
+enumerate()   返回索引值和本值
+        e = list(enumerate(c))
+zip() f = list(zip(b, c))
