@@ -283,3 +283,69 @@ pop()    member.pop(下标)     弹出并返回一个值，若无下标默认最
 member[1:3：1]开始位置，结束位置，步长，包左不包右。
 前后值都可以去。
 member[:]拷贝一个列表
+
+#### 4. 列表常见操作符
+1. 比较操作符，比较第一个元素。字符串比较，比较ASC码
+2. 连接操作符，左右类型一致，元组字符串可拼接。+
+3. 重复操作符，*
+4. 成员关系操作符  in , not in,返回布尔值
+5. list.count(待寻找的元素)，数这个元素出现几次
+6. list.index(待寻找元素，初始范围，结束范围)，找这个元素的下标
+7. list.reverse()，列表元素翻转
+8. list.sort() ，列表排序，从小到大排
+sort(func, key)
+sort(reverse=true) ,列表排序，从大到小排
+
+### 九，元组，戴上了枷锁的列表
+列表可任意插入，删除元素，但列表不可
+1. 创建，列表用[].元组用()
+2. 通过下标访问元素，切片
+
+列表的逗号是关键temp = (1, )
+temp = 1, 2, 3
+temp = ()
+temp = 1,
+
+更新和删除一个元组
+用切片和拼接 
+
+### 十，字符串的内置方法
+字符串定下了就不能改，和元组一样，需要修改的话可以切片重建
+1. capitalize()      str.capitalize()       首字母大写
+2. str.casefold()     所有字符变小写
+3. str.center(width)   将字符串居中，使用空格填充至长度为width的新字符串
+4. str.count(sub[,start[,end]])   返回sub在字符串里边出现的次数，start和end参数表示范围，可选。
+5. str.endswith(sub[,start[,end]])  检查是否是以sub结尾
+6. str.expandtabs([tabssize=8])     把字符串里的tab(\t)符号转化为空格，如不指定参数，默认空格数是tabsize = 8
+7. str.find(sub[,start[,end]])    检测sub是否在字符串中，是则返回索引值，否则返回-1
+8. str.index(sbu[,start[,end]])   同find，若未找到返回一个异常
+9. str.isalnum()      如果字符串至少有一个字符，并且所有字符都是数字或字母，则返回true，否则返回false
+10. str.isalpha()     如果字符串至少有一个字符，并且所有字符都是字母，则返回true,否则false
+11. str.isdecimal()    如果字符串只包含十进制数字则返回true，否则返回false
+12. str.isdigit()      如果字符串只包含数字则返回true， 否则返回false
+13. str.islower()       如果字符串至少包含一个区分大小写的字符，并且这些字符都是小写，则返回true,否则返回false
+14. str.isnumeric()      如果字符串只包含数字字符，则返回true,否则返回false
+15. str.isspace()        如果字符串只包含空格，则返回true,否则返回false
+16. str.istitle()       如果字符串都是标题化，（所有的单词都是以大写开始，其余字母均小写），则返回true,否则返回false
+17. str.isupper()      如果字符串至少包含一个区分大小写的字符，并且这些字符都是大写，则返回true,否则返回false
+18. str.join(sub)      以字符串作为分隔符，插入到sub所有的字符中
+19. str.ljust(width)    返回一个左对齐的字符串，并使用空格填充长度为width的新字符串
+18. str.lower()          所有大写字母变小写
+19. str.lstrip()        去掉字符串左边的所有空格
+20. str.rstrip()        去掉字符串右边的所有空格
+21. str.partition(sub)   找到字符串sub，把字符串分成一个3元组(pre_sub, sub, fol_sub)
+22. str.replace(old,new,[,count])     把字符串中的old字符串替换成new字符串，如果count指定，则替换不超过count次
+23. rfind(sub[,start[,end]])     类似find，但是从右开始找
+24. rindex(sub[,start[,end]])    类似index，但是从右开始找
+25. rpartition(sub)           类似partition，但是从右开始找
+26. split(sep=None,maxsp=-1)   不带参数默认是以空格为分隔符切片字符串，如果maxsplit参数指定，则仅分割maxsplit个子字符串，返回切片后的子字符串拼接的列表
+27. splitlines(([keepends]))    按照\n分割，返回一个包含各行作为元素的列表，如果keepends参数指定，则返回前keepends行
+28. startwith(prefix[,start[,end]])   检查是否以prefix开头
+29. strip([chars])      删除字符串前边后边所有空格，chars参数可以定制删除的字符
+30. swapcase()          反转字符中的大小写
+31. title()             返回标题化的字符串
+32. upper()
+33. zfill(wideth)         返回长度为width的字符串，原字符串右对齐，前边用0填充
+
+### 十一，字符串的格式化
+
