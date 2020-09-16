@@ -344,7 +344,7 @@ temp = 1,
 29. strip([chars])      删除字符串前边后边所有空格，chars参数可以定制删除的字符
 30. swapcase()          反转字符中的大小写
 31. title()             返回标题化的字符串
-32. upper()
+32. upper()             所有字母大写
 33. zfill(wideth)         返回长度为width的字符串，原字符串右对齐，前边用0填充
 
 ### 十一，字符串的格式化
@@ -401,3 +401,19 @@ reversed()   返回一个迭代器
 enumerate()   返回索引值和本值
         e = list(enumerate(c))
 zip() f = list(zip(b, c))
+
+###十三，函数
+1. 定义函数：
+def MyFirstFunction():
+    print('I Love It')
+调用函数
+
+2.函数参数
+def MySecondFunction(name):
+    print(name + 'love')
+MySecondFunction('s ')
+
+3,函数的返回值
+def add(a,b):
+    return (a + b)
+print(add(10,15))

@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21f1b2b1-d4e6-48b0-8566-a751c2a82e39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/list_bif.py" afterDir="false" />
+    <list default="true" id="21f1b2b1-d4e6-48b0-8566-a751c2a82e39" name="Default Changelist" comment="P18的笔记">
+      <change afterPath="$PROJECT_DIR$/code/def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/system_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_note.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_note.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="316">
-                <caret line="402" column="6" lean-forward="true" selection-start-line="402" selection-start-column="6" selection-end-line="402" selection-end-column="6" />
+              <first_editor relative-caret-position="-118">
+                <caret line="346" column="30" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/format_ex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/system_trans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/def.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,14 +82,17 @@
         <option value="$PROJECT_DIR$/code/check.py" />
         <option value="$PROJECT_DIR$/code/format_ex.py" />
         <option value="$PROJECT_DIR$/code/list_bif.py" />
+        <option value="$PROJECT_DIR$/code/def.py" />
         <option value="$PROJECT_DIR$/python_note.md" />
+        <option value="$PROJECT_DIR$/code/system_trans.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1106" />
-    <option name="width" value="823" />
-    <option name="height" value="1038" />
+    <option name="x" value="672" />
+    <option name="y" value="81" />
+    <option name="width" value="1298" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -118,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list_bif">
+  <component name="RunManager" selected="Python.system_trans">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for_circulation2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="def" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/for_circulation2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/def.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="range_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="system_trans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,7 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/range_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/system_trans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.list_bif" />
+        <item itemvalue="Python.system_trans" />
         <item itemvalue="Python.format_ex" />
+        <item itemvalue="Python.def" />
+        <item itemvalue="Python.list_bif" />
         <item itemvalue="Python.check" />
-        <item itemvalue="Python.range_example" />
-        <item itemvalue="Python.for_circulation2" />
       </list>
     </recent_temporary>
   </component>
@@ -287,18 +309,32 @@
       <option name="project" value="LOCAL" />
       <updated>1600243100993</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="P16的笔记">
+      <created>1600244824374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244824374</updated>
+    </task>
+    <task id="LOCAL-00008" summary="P17的笔记">
+      <created>1600244853406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244853406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="885" y="0" width="658" height="830" extended-state="0" />
+    <frame x="538" y="65" width="1038" height="773" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5418006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1746507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3381089" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33385336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +395,8 @@
     <MESSAGE value="P8 到P12 的笔记和代码" />
     <MESSAGE value="P13 到P15 的笔记" />
     <MESSAGE value="P16的笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="P16的笔记" />
+    <MESSAGE value="P17的笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="P17的笔记" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/random_guess.py" />
@@ -419,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/format_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/list_bif.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -433,13 +463,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="316">
-            <caret line="402" column="6" lean-forward="true" selection-start-line="402" selection-start-column="6" selection-end-line="402" selection-end-column="6" />
+          <first_editor relative-caret-position="-118">
+            <caret line="346" column="30" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/format_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/system_trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
