@@ -467,3 +467,21 @@ print(count)
 不能在内置函数里调用外部变量
 nonlocal,声明一下不是局部变量就可以在内部函数调用全局变量
 
+12. 匿名函数lambda
+lambda x, y: x+y
+g = lambda x, y: x+y
+print(g(3, 4))
+省下定义函数的时间
+
+13. 两个厉害的bif
+filter()
+# print(help(filter))
+filter(None, [1, 0, False, True])
+print(list(filter(None, [1, 0, False, True])))
+filter 两个参数，第一个参数为none时，可过滤掉第二个参数里为假的东西
+filter第一个参数可以定制
+
+print(list(filter(lambda x: x % 2, range(10))))
+
+14.map()
+print(list(map(lambda x: x % 2, range(10))))
