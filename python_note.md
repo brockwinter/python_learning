@@ -494,3 +494,23 @@ print(list(map(lambda x: x % 2, range(10))))
 分治思想
 缺点，耗时多
 
+### 十五，字典
+不是序列类型，而是映射类型
+dirt1 = {'a':'fast', 'b':'low'}
+
+dirt1 = {'a': 'fast', 'b': 'low'}
+print('a')
+print(dirt1['a'])
+dirt2 = {('a', 'fast'), ('b', 'low')}
+dirt3 = dict(a= 'fast', b ='low')
+
+dirt3['a'] = '1245'
+print(dirt3)
+
+工厂函数：str(), int(), list(),tuple()
+字典的内建方法：
+ fromkeys(...)  keys()   value()  items() in  clear()
+ 赋值不是浅拷贝
+ 
+ 
+ 
