@@ -1,0 +1,8 @@
+ntxt = input()
+nls = ntxt.split(' ')
+x0 = eval(nls[0])
+y0 = eval(nls[1])
+x1 = eval(nls[2])
+y1 = eval(nls[3])
+r = pow(pow(x1 - x0, 2) + pow(y1 - y0, 2), 1/2)
+print('{:.2f}'.format(r))

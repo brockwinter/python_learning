@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f1b2b1-d4e6-48b0-8566-a751c2a82e39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/big_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/jieba.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/random.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/sports_money.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_code_180902/turtle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/等级考试知识点.md" beforeDir="false" afterPath="$PROJECT_DIR$/等级考试知识点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex_code_180903/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex_code_180903/i-o.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,20 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex_code_180902/statistics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex_code_180902/big_code.py">
+        <entry file="file://$PROJECT_DIR$/ex_code_180903/i-o.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -153,14 +136,15 @@
         <option value="$PROJECT_DIR$/ex_code_180902/turtle.py" />
         <option value="$PROJECT_DIR$/ex_code_180902/statistics.py" />
         <option value="$PROJECT_DIR$/ex_code_180902/big_code.py" />
+        <option value="$PROJECT_DIR$/ex_code_180903/i-o.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1088" />
-    <option name="y" value="41" />
-    <option name="width" value="775" />
-    <option name="height" value="1040" />
+    <option name="x" value="1087" />
+    <option name="y" value="40" />
+    <option name="width" value="777" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,6 +165,11 @@
               <item name="python_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="ex_code_180902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ex_code_180903" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600842949619</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1809 第二套  笔记和代码">
+      <created>1600848564937</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600848564937</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -485,7 +481,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,7 +582,8 @@
     <MESSAGE value="P26p27p28的笔记" />
     <MESSAGE value="P29的笔记" />
     <MESSAGE value="1809 第一套  笔记和代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1809 第一套  笔记和代码" />
+    <MESSAGE value="1809 第二套  笔记和代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1809 第二套  笔记和代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,13 +611,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/list_bif.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/system_trans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -948,8 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex_code_180902/big_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="248">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex_code_180903/i-o.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
