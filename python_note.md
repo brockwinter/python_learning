@@ -564,3 +564,36 @@ rename(odd,new)
 system(command)
 
 import random
+# 异常处理
+1. FileNotFoundError
+2. AssertionError,断言语句（assert）失败
+3. AttributeError,访问未知的对象属性.
+4. IndexError ,索引值超出范围
+5. KeyError, 字典中查找不存在的关键字
+```
+my_dict = {'one':1, 'two':2, 'three':3}
+my_dict['two']
+my_dict['four']
+my_dict.get('four')
+```
+6. OSError,操作系统的异常
+7. SyntaxError,语法错误
+8. TypeError , 不同类型错误
+9. ZeroDivisionError，除数为零的错误
+# 二，异常的检测和处理
+try-except语句
+try 语句一旦出现异常，剩下的语句不会被执行
+
+try:
+    ...
+except Exception[as reason]:
+    出现异常后的处理代码
+finally:
+    无论如何都会被执行的代码
+
+raise语句
+直接引出一个异常
+raise  
+
+
+
